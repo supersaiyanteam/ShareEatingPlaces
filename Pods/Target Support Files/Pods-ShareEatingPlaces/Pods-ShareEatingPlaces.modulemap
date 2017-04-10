@@ -1,0 +1,6 @@
+framework module Pods_ShareEatingPlaces {
+  umbrella header "Pods-ShareEatingPlaces-umbrella.h"
+
+  export *
+  module * { export * }
+}
