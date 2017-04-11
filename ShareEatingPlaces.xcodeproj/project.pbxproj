@@ -10,6 +10,9 @@
 		1E39AAFA1E9C83F000603589 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AAF91E9C83F000603589 /* SignUpViewController.swift */; };
 		1E39AAFC1E9C869200603589 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AAFB1E9C869200603589 /* BaseNavigationController.swift */; };
 		1E39AAFE1E9C8E6200603589 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AAFD1E9C8E6200603589 /* BaseViewController.swift */; };
+		1E39AB001E9CC1AA00603589 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AAFF1E9CC1AA00603589 /* HomeViewController.swift */; };
+		1E39AB021E9CC3D800603589 /* BaseTabarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AB011E9CC3D800603589 /* BaseTabarViewController.swift */; };
+		1E39AB041E9CD0FD00603589 /* SearchLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39AB031E9CD0FD00603589 /* SearchLocationViewController.swift */; };
 		1E3DA7411E9B4130000F20B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA7401E9B4130000F20B4 /* AppDelegate.swift */; };
 		1E3DA7431E9B4130000F20B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA7421E9B4130000F20B4 /* LoginViewController.swift */; };
 		1E3DA7461E9B4130000F20B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DA7441E9B4130000F20B4 /* Main.storyboard */; };
@@ -27,6 +30,14 @@
 		1E39AAF91E9C83F000603589 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
 		1E39AAFB1E9C869200603589 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		1E39AAFD1E9C8E6200603589 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1E39AAFF1E9CC1AA00603589 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1E39AB011E9CC3D800603589 /* BaseTabarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabarViewController.swift; sourceTree = "<group>"; };
+		1E39AB031E9CD0FD00603589 /* SearchLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchLocationViewController.swift; path = ../SearchLocationViewController.swift; sourceTree = "<group>"; };
+		1E39AB071E9CD7A300603589 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		1E39AB081E9CD7A300603589 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		1E39AB091E9CD7A300603589 /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		1E39AB0A1E9CD7A300603589 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		1E39AB0B1E9CD7A300603589 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
 		1E3DA73D1E9B4130000F20B4 /* ShareEatingPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareEatingPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3DA7401E9B4130000F20B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E3DA7421E9B4130000F20B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +65,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E39AB051E9CD11600603589 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E39AB031E9CD0FD00603589 /* SearchLocationViewController.swift */,
+				1E3DA7421E9B4130000F20B4 /* LoginViewController.swift */,
+				1E39AAF91E9C83F000603589 /* SignUpViewController.swift */,
+				1E39AAFF1E9CC1AA00603589 /* HomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1E39AB061E9CD78E00603589 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1E39AB071E9CD7A300603589 /* SF-UI-Text-Bold.otf */,
+				1E39AB081E9CD7A300603589 /* SF-UI-Text-Light.otf */,
+				1E39AB091E9CD7A300603589 /* SF-UI-Text-Medium.otf */,
+				1E39AB0A1E9CD7A300603589 /* SF-UI-Text-Regular.otf */,
+				1E39AB0B1E9CD7A300603589 /* SF-UI-Text-Semibold.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 		1E3DA7341E9B4130000F20B4 = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +109,10 @@
 		1E3DA73F1E9B4130000F20B4 /* ShareEatingPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				1E39AB061E9CD78E00603589 /* Font */,
+				1E39AB051E9CD11600603589 /* Controller */,
 				1E3DA7541E9B6AC6000F20B4 /* CustomView */,
 				1E3DA7401E9B4130000F20B4 /* AppDelegate.swift */,
-				1E3DA7421E9B4130000F20B4 /* LoginViewController.swift */,
-				1E39AAF91E9C83F000603589 /* SignUpViewController.swift */,
 				1E3DA7441E9B4130000F20B4 /* Main.storyboard */,
 				1E3DA7471E9B4130000F20B4 /* Assets.xcassets */,
 				1E3DA7491E9B4130000F20B4 /* LaunchScreen.storyboard */,
@@ -96,6 +130,7 @@
 				1E3DA7571E9B6B3B000F20B4 /* CustomTextField.swift */,
 				1E3DA7591E9B7B8F000F20B4 /* CustomButton.swift */,
 				1E3DA75B1E9B8F1B000F20B4 /* CustomBlurView.swift */,
+				1E39AB011E9CC3D800603589 /* BaseTabarViewController.swift */,
 			);
 			name = CustomView;
 			sourceTree = "<group>";
@@ -241,13 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E39AB021E9CC3D800603589 /* BaseTabarViewController.swift in Sources */,
 				1E3DA75A1E9B7B8F000F20B4 /* CustomButton.swift in Sources */,
 				1E39AAFC1E9C869200603589 /* BaseNavigationController.swift in Sources */,
 				1E3DA7431E9B4130000F20B4 /* LoginViewController.swift in Sources */,
 				1E3DA7411E9B4130000F20B4 /* AppDelegate.swift in Sources */,
 				1E3DA75C1E9B8F1B000F20B4 /* CustomBlurView.swift in Sources */,
+				1E39AB001E9CC1AA00603589 /* HomeViewController.swift in Sources */,
 				1E39AAFE1E9C8E6200603589 /* BaseViewController.swift in Sources */,
 				1E39AAFA1E9C83F000603589 /* SignUpViewController.swift in Sources */,
+				1E39AB041E9CD0FD00603589 /* SearchLocationViewController.swift in Sources */,
 				1E3DA7581E9B6B3B000F20B4 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +408,9 @@
 			baseConfigurationReference = 4D2713196BAE7160F114354C /* Pods-ShareEatingPlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShareEatingPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hoang.com.ShareEatingPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,7 +423,9 @@
 			baseConfigurationReference = EB75CBA4E2462284B1AA2D82 /* Pods-ShareEatingPlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShareEatingPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hoang.com.ShareEatingPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";

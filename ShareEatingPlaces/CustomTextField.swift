@@ -36,6 +36,7 @@ class CustomTextField: UITextField {
             let view = UIView(frame: CGRect(x: 0, y: 0, width: width, height: 20))
             view.addSubview(imageView)
             leftView = view
+            attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSForegroundColorAttributeName : UIColor.white])
         }
         else {
             leftViewMode = .never

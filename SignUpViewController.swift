@@ -19,7 +19,7 @@ class SignUpViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        customBackground.CustomImage(view: background_sign_up_image, alpha: 0.5)
+        customBackground.CustomImage(view: background_sign_up_image, alpha: 0.4)
     }
     
     @IBAction func action_register(_ sender: UIButton) {
