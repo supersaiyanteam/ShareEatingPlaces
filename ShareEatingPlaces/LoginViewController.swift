@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-class ViewController: UIViewController {
+class LoginViewController: BaseViewController {
     let customBackground = CustomBackgroundBlur()
     @IBOutlet weak var login_background_image: UIImageView!
   
@@ -16,10 +16,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var tx_password: CustomTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-       customBackground.CustomImage(view: login_background_image, alpha: 0.8)
-       
+       customBackground.CustomImage(view: login_background_image, alpha: 0.5)
+        tranparent = true
+        setTitleForBackButton(title: "")
     }
-    
+   
     @IBAction func action_login(_ sender: UIButton) {
         if let email = tx_email.text, let pass = tx_password.text {
             if email == "" || pass == "" {
@@ -40,7 +41,8 @@ class ViewController: UIViewController {
 
     }
     @IBAction func action_signup(_ sender: UIButton) {
-       
+       let signUpView = self.storyboard?.instantiateViewController(withIdentifier: "SignUpVC") as! SignUpViewController
+        navigationController?.pushViewController(signUpView, animated: true)
     }
     
 
