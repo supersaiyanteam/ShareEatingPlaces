@@ -13,6 +13,7 @@ class SearchLocationViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //commit ngay moi
+        // commit ngay moi1
         // Do any additional setup after loading the view.
     }
 
