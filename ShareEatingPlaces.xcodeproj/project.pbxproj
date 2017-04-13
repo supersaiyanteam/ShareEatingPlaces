@@ -72,6 +72,7 @@
 		1E39AB051E9CD11600603589 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1E3DA7401E9B4130000F20B4 /* AppDelegate.swift */,
 				1E39AB031E9CD0FD00603589 /* SearchLocationViewController.swift */,
 				1E3DA7421E9B4130000F20B4 /* LoginViewController.swift */,
 				1E39AAF91E9C83F000603589 /* SignUpViewController.swift */,
@@ -115,15 +116,10 @@
 		1E3DA73F1E9B4130000F20B4 /* ShareEatingPlaces */ = {
 			isa = PBXGroup;
 			children = (
-				1E3DA7401E9B4130000F20B4 /* AppDelegate.swift */,
+				8ACD1BD31E9F7319005DA387 /* Resource */,
+				8ACD1BD21E9F7300005DA387 /* Model */,
 				1E39AB051E9CD11600603589 /* Controller */,
-				1E3DA7541E9B6AC6000F20B4 /* CustomView */,
-				1E39AB061E9CD78E00603589 /* Font */,
-				1E3DA7441E9B4130000F20B4 /* Main.storyboard */,
-				1E3DA7471E9B4130000F20B4 /* Assets.xcassets */,
-				1E3DA7491E9B4130000F20B4 /* LaunchScreen.storyboard */,
-				1E3DA74C1E9B4130000F20B4 /* Info.plist */,
-				1E29CA6C1E9F1D4500D89BBB /* GoogleService-Info.plist */,
+				8ACD1BD11E9F72F7005DA387 /* View */,
 			);
 			path = ShareEatingPlaces;
 			sourceTree = "<group>";
@@ -148,6 +144,34 @@
 				EB75CBA4E2462284B1AA2D82 /* Pods-ShareEatingPlaces.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8ACD1BD11E9F72F7005DA387 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DA7491E9B4130000F20B4 /* LaunchScreen.storyboard */,
+				1E3DA7441E9B4130000F20B4 /* Main.storyboard */,
+				1E3DA7541E9B6AC6000F20B4 /* CustomView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8ACD1BD21E9F7300005DA387 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8ACD1BD31E9F7319005DA387 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DA7471E9B4130000F20B4 /* Assets.xcassets */,
+				1E3DA74C1E9B4130000F20B4 /* Info.plist */,
+				1E29CA6C1E9F1D4500D89BBB /* GoogleService-Info.plist */,
+				1E39AB061E9CD78E00603589 /* Font */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		F50BA1FB3178C701C8225E1B /* Frameworks */ = {
