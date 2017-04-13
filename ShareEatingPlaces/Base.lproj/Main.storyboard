@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -260,11 +260,31 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kp4-Ta-85X" customClass="CustomTextField" customModule="ShareEatingPlaces" customModuleProvider="target">
+                                <rect key="frame" x="30" y="320" width="315" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="0.29642016269999999" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6fW-Vz-9wE"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="FjC-bK-RRW"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="user-white"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XpC-9o-g1q" customClass="CustomButton" customModule="ShareEatingPlaces" customModuleProvider="target">
-                                <rect key="frame" x="30" y="340" width="315" height="40"/>
+                                <rect key="frame" x="30" y="390" width="315" height="40"/>
                                 <color key="backgroundColor" red="0.20824014502222227" green="0.65929010922777775" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="aqH-ib-ebS"/>
+                                    <constraint firstAttribute="height" constant="40" id="mcz-L4-uCC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="REGISTER">
@@ -282,19 +302,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kp4-Ta-85X" secondAttribute="trailing" constant="30" id="4rt-vs-ViE"/>
+                            <constraint firstItem="kp4-Ta-85X" firstAttribute="leading" secondItem="vh0-hZ-wfY" secondAttribute="leading" constant="30" id="9H4-BI-MSw"/>
                             <constraint firstAttribute="trailing" secondItem="Nkk-LZ-5Eh" secondAttribute="trailing" constant="30" id="9Rj-mg-S67"/>
+                            <constraint firstItem="XpC-9o-g1q" firstAttribute="top" secondItem="kp4-Ta-85X" secondAttribute="bottom" constant="30" id="D7G-58-cgq"/>
                             <constraint firstItem="q7j-mG-pUH" firstAttribute="leading" secondItem="vh0-hZ-wfY" secondAttribute="leading" id="EQ2-QI-EKs"/>
                             <constraint firstItem="Nkk-LZ-5Eh" firstAttribute="leading" secondItem="vh0-hZ-wfY" secondAttribute="leading" constant="30" id="ERT-9I-oUy"/>
                             <constraint firstItem="oJ2-Yh-iKC" firstAttribute="leading" secondItem="Nkk-LZ-5Eh" secondAttribute="leading" id="LpM-vw-Cod"/>
                             <constraint firstItem="oJ2-Yh-iKC" firstAttribute="top" secondItem="Nkk-LZ-5Eh" secondAttribute="bottom" constant="10" id="M2h-Rk-Yz9"/>
                             <constraint firstItem="oJ2-Yh-iKC" firstAttribute="leading" secondItem="vh0-hZ-wfY" secondAttribute="leading" constant="30" id="O5X-ca-SC0"/>
                             <constraint firstItem="wyk-Ma-xcl" firstAttribute="top" secondItem="q7j-mG-pUH" secondAttribute="bottom" id="SBA-5u-WzI"/>
-                            <constraint firstAttribute="trailing" secondItem="XpC-9o-g1q" secondAttribute="trailing" constant="30" id="SyU-HN-4xb"/>
+                            <constraint firstAttribute="trailing" secondItem="XpC-9o-g1q" secondAttribute="trailing" constant="30" id="Uvh-cu-OQQ"/>
                             <constraint firstAttribute="trailing" secondItem="q7j-mG-pUH" secondAttribute="trailing" id="epM-Rp-c2T"/>
+                            <constraint firstItem="XpC-9o-g1q" firstAttribute="leading" secondItem="vh0-hZ-wfY" secondAttribute="leading" constant="30" id="fPd-WE-9CT"/>
                             <constraint firstItem="q7j-mG-pUH" firstAttribute="top" secondItem="vh0-hZ-wfY" secondAttribute="top" id="jeQ-Hz-Q1M"/>
-                            <constraint firstItem="XpC-9o-g1q" firstAttribute="top" secondItem="oJ2-Yh-iKC" secondAttribute="bottom" constant="30" id="p6r-eg-auJ"/>
+                            <constraint firstItem="kp4-Ta-85X" firstAttribute="top" secondItem="oJ2-Yh-iKC" secondAttribute="bottom" constant="10" id="kds-tN-PQW"/>
                             <constraint firstAttribute="trailing" secondItem="oJ2-Yh-iKC" secondAttribute="trailing" constant="30" id="pjK-gc-UU5"/>
-                            <constraint firstItem="XpC-9o-g1q" firstAttribute="leading" secondItem="vh0-hZ-wfY" secondAttribute="leading" constant="30" id="zor-aR-W5t"/>
                             <constraint firstItem="Nkk-LZ-5Eh" firstAttribute="top" secondItem="KiR-jK-1Hf" secondAttribute="bottom" constant="200" id="zwP-kq-b7J"/>
                         </constraints>
                     </view>
@@ -302,11 +325,12 @@
                         <outlet property="background_sign_up_image" destination="q7j-mG-pUH" id="5tj-ie-Wzp"/>
                         <outlet property="tf_email_signup" destination="Nkk-LZ-5Eh" id="tvh-sx-5su"/>
                         <outlet property="tf_password_signup" destination="oJ2-Yh-iKC" id="42K-v4-FCx"/>
+                        <outlet property="tf_username_signup" destination="kp4-Ta-85X" id="6rb-8Q-adK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4C-9r-Rt0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="796.55172413793105"/>
+            <point key="canvasLocation" x="1055" y="873"/>
         </scene>
     </scenes>
     <resources>
@@ -314,5 +338,6 @@
         <image name="blueberry" width="414" height="736"/>
         <image name="key" width="32" height="32"/>
         <image name="mail" width="32" height="32"/>
+        <image name="user-white" width="32" height="32"/>
     </resources>
 </document>

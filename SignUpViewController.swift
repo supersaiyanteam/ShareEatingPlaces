@@ -16,6 +16,7 @@ class SignUpViewController: BaseViewController {
     
     @IBOutlet weak var tf_password_signup: CustomTextField!
     
+    @IBOutlet weak var tf_username_signup: CustomTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()

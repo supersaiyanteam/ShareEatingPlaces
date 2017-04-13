@@ -12,7 +12,6 @@ class HomeViewController: BaseViewController {
 
     
     var visible = false
-    
     let logoutButton: UIButton = {
         let button = UIButton()
         button.frame = CGRect(x: 100, y: 100, width: 80, height: 20)
@@ -28,10 +27,16 @@ class HomeViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let addLocationButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addLocation))
+        addLocationButton.tintColor = .red
+        navigationItem.rightBarButtonItem = addLocationButton
         firebaseListenAuth()
         view.addSubview(logoutButton)
+        
     }
-
+    func addLocation()  {
+        print("add")
+    }
     func logout(){
         try! FIRAuth.auth()?.signOut()
     }
