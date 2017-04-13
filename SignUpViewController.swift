@@ -30,11 +30,16 @@ class SignUpViewController: BaseViewController {
             else {
                 FIRAuth.auth()?.createUser(withEmail: email, password: pass, completion: { (user, error) in
                     if error != nil {
-                        print(error)
+                        let alert = UIAlertController(title: "Alert", message: "Register is unsussesful", preferredStyle: UIAlertControllerStyle.alert)
+                        alert.addAction(UIAlertAction.init(title: "OK", style: .default, handler:nil))
+                         self.present(alert, animated: true, completion: nil)
                     }
                     else {
-                        let alert = UIAlertController(title: "Alert", message: "Message", preferredStyle: UIAlertControllerStyle.alert)
-                        alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+                        let alert = UIAlertController(title: "Alert", message: "Register is sussesful", preferredStyle: UIAlertControllerStyle.alert)
+                        alert.addAction(UIAlertAction.init(title: "Back to login", style: .default, handler: { (action) in
+                            self.navigationController?.popViewController(animated: true)
+                        }))
+
                         self.present(alert, animated: true, completion: nil)
                     }
                 })

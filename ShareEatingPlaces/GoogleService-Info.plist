@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>862684362716-u8vr0ek7tqevk5udhojadq592is10smu.apps.googleusercontent.com</string>
+	<string>384129771329-g2didp905o4ompuutk9a2gbu82l46k5f.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.862684362716-u8vr0ek7tqevk5udhojadq592is10smu</string>
+	<string>com.googleusercontent.apps.384129771329-g2didp905o4ompuutk9a2gbu82l46k5f</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAaHPMjtMUo2E2rCYR7PYQ0e3B3Gy0CUxM</string>
+	<string>AIzaSyBbKMdCMC0XCbyhSnufLUOKxokOmIryDfY</string>
 	<key>GCM_SENDER_ID</key>
-	<string>862684362716</string>
+	<string>384129771329</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>hoang.com.ShareEatingPlaces</string>
 	<key>PROJECT_ID</key>
-	<string>shareeatingplaces</string>
+	<string>shareeatingplaces-e1942</string>
 	<key>STORAGE_BUCKET</key>
-	<string>shareeatingplaces.appspot.com</string>
+	<string>shareeatingplaces-e1942.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:862684362716:ios:f03b87e7c0bbd375</string>
+	<string>1:384129771329:ios:f03b87e7c0bbd375</string>
 	<key>DATABASE_URL</key>
-	<string>https://shareeatingplaces.firebaseio.com</string>
+	<string>https://shareeatingplaces-e1942.firebaseio.com</string>
 </dict>
 </plist>
