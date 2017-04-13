@@ -13,11 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
         FIRApp.configure()
-        let loginVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginVC")
-        let navController = BaseNavigationController(rootViewController: loginVC)
+        let navController = BaseTabarViewController()
         window?.rootViewController = navController
         window?.makeKeyAndVisible()
         UIApplication.shared.statusBarStyle = .lightContent

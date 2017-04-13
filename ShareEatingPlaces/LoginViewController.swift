@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+
+@objc
 class LoginViewController: BaseViewController {
     let customBackground = CustomBackgroundBlur()
     @IBOutlet weak var login_background_image: UIImageView!
@@ -31,11 +33,11 @@ class LoginViewController: BaseViewController {
             {
                 FIRAuth.auth()?.signIn(withEmail: email, password: pass, completion: { (users, error) in
                     if error != nil {
-                        print(error)
+                        print(error?.localizedDescription)
                     }
                     else {
-                        let tabar = BaseTabarViewController()
-                        self.navigationController?.present(tabar, animated: true, completion: nil)
+                        print("login success")
+                       self.dismiss(animated: true, completion: nil)
                     }
                 })
             }
