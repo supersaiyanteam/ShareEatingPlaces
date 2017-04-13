@@ -11,14 +11,15 @@ import Firebase
 class LoginViewController: BaseViewController {
     let customBackground = CustomBackgroundBlur()
     @IBOutlet weak var login_background_image: UIImageView!
-    
     @IBOutlet weak var tx_email: CustomTextField!
     @IBOutlet weak var tx_password: CustomTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         customBackground.CustomImage(view: login_background_image, alpha: 0.4)
         tranparent = true
         setTitleForBackButton(title: "")
+        
     }
     
     @IBAction func action_login(_ sender: UIButton) {
