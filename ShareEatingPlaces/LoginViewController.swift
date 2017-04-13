@@ -44,9 +44,13 @@ class LoginViewController: BaseViewController {
         }
         
     }
+    
+    
+    
     @IBAction func action_signup(_ sender: UIButton) {
         let signUpView = self.storyboard?.instantiateViewController(withIdentifier: "SignUpVC") as! SignUpViewController
         navigationController?.pushViewController(signUpView, animated: true)
+        
     }
     
     

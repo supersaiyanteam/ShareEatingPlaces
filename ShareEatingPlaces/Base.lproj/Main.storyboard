@@ -109,9 +109,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW2-hW-XfW">
-                                <rect key="frame" x="219" y="444" width="69" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GW2-hW-XfW">
+                                <rect key="frame" x="219" y="444" width="65" height="27"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <state key="normal" title="Reset here">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -132,15 +131,18 @@
                             <constraint firstItem="fqz-bS-Ck4" firstAttribute="top" secondItem="54S-UN-CIp" secondAttribute="bottom" constant="8" id="SMf-R3-P5G"/>
                             <constraint firstAttribute="trailing" secondItem="UcG-7N-M6b" secondAttribute="trailing" id="a9u-fI-4yI"/>
                             <constraint firstItem="2Cv-Hg-uQz" firstAttribute="top" secondItem="OUs-ta-JHC" secondAttribute="bottom" constant="10" id="aab-TV-zn9"/>
+                            <constraint firstItem="GW2-hW-XfW" firstAttribute="top" secondItem="54S-UN-CIp" secondAttribute="bottom" constant="8" id="akZ-hn-hi7"/>
                             <constraint firstItem="OUs-ta-JHC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="akr-Rc-76n"/>
                             <constraint firstItem="54S-UN-CIp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="hIe-50-ir5"/>
                             <constraint firstItem="Dcn-oc-BSc" firstAttribute="top" secondItem="2Cv-Hg-uQz" secondAttribute="bottom" constant="36" id="ksb-rh-Shf"/>
+                            <constraint firstItem="GW2-hW-XfW" firstAttribute="leading" secondItem="fqz-bS-Ck4" secondAttribute="trailing" constant="56.5" id="ktA-XW-ww8"/>
                             <constraint firstItem="fqz-bS-Ck4" firstAttribute="leading" secondItem="54S-UN-CIp" secondAttribute="leading" id="mzL-mY-SEW"/>
                             <constraint firstAttribute="trailing" secondItem="2Cv-Hg-uQz" secondAttribute="trailing" constant="30" id="tYJ-7E-vPS"/>
                             <constraint firstAttribute="trailing" secondItem="OUs-ta-JHC" secondAttribute="trailing" constant="30" id="xFg-xb-akZ"/>
                             <constraint firstItem="54S-UN-CIp" firstAttribute="top" secondItem="Dcn-oc-BSc" secondAttribute="bottom" constant="10" id="yU5-6a-vUQ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="IfO-lA-soJ"/>
                     <connections>
                         <outlet property="login_background_image" destination="UcG-7N-M6b" id="Gah-oh-KqH"/>
                         <outlet property="tx_email" destination="OUs-ta-JHC" id="FrM-zP-Qu3"/>
@@ -149,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="121.88905547226388"/>
+            <point key="canvasLocation" x="1055.2" y="121.88905547226388"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="8ZW-0q-KHh">
@@ -167,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mtK-Fi-ol5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1021.7391304347827" y="120.65217391304348"/>
+            <point key="canvasLocation" x="1960.8" y="120.08995502248877"/>
         </scene>
         <!--Search Location View Controller-->
         <scene sceneID="Q17-kr-rLq">
@@ -185,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U2c-SQ-mZs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1714" y="121"/>
+            <point key="canvasLocation" x="2652" y="120.98950524737631"/>
         </scene>
         <!--User Cotroller-->
         <scene sceneID="dy2-kW-muz">
@@ -203,7 +205,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pbU-7G-9sK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2414" y="122"/>
+            <point key="canvasLocation" x="3352.8000000000002" y="121.88905547226388"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="OkL-qb-QSX">

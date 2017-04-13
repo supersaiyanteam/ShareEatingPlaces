@@ -44,8 +44,8 @@ class HomeViewController: BaseViewController {
             
             if user == nil {
                 let loginVC = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC") as! LoginViewController
-                
-                self.present(loginVC, animated: true, completion: nil)
+                let nav = BaseNavigationController(rootViewController: loginVC)
+                self.present(nav, animated: true, completion: nil)
             }
         })
     }
