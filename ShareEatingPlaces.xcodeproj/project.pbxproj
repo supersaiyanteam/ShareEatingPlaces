@@ -22,6 +22,7 @@
 		1E3DA7581E9B6B3B000F20B4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA7571E9B6B3B000F20B4 /* CustomTextField.swift */; };
 		1E3DA75A1E9B7B8F000F20B4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA7591E9B7B8F000F20B4 /* CustomButton.swift */; };
 		1E3DA75C1E9B8F1B000F20B4 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA75B1E9B8F1B000F20B4 /* CustomBlurView.swift */; };
+		8ACD1BCE1E9F30CD005DA387 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD1BCD1E9F30CD005DA387 /* Test.swift */; };
 		CAD737F6A1B6B7D7A4C0884B /* Pods_ShareEatingPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2F880B8295253A9343BD13 /* Pods_ShareEatingPlaces.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		1E3DA7591E9B7B8F000F20B4 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		1E3DA75B1E9B8F1B000F20B4 /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
 		4D2713196BAE7160F114354C /* Pods-ShareEatingPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareEatingPlaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareEatingPlaces/Pods-ShareEatingPlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		8ACD1BCD1E9F30CD005DA387 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		EB75CBA4E2462284B1AA2D82 /* Pods-ShareEatingPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareEatingPlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareEatingPlaces/Pods-ShareEatingPlaces.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				1E3DA7421E9B4130000F20B4 /* LoginViewController.swift */,
 				1E39AAF91E9C83F000603589 /* SignUpViewController.swift */,
 				1E39AAFF1E9CC1AA00603589 /* HomeViewController.swift */,
+				8ACD1BCD1E9F30CD005DA387 /* Test.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				1E39AAFC1E9C869200603589 /* BaseNavigationController.swift in Sources */,
 				1E3DA7431E9B4130000F20B4 /* LoginViewController.swift in Sources */,
 				1E3DA7411E9B4130000F20B4 /* AppDelegate.swift in Sources */,
+				8ACD1BCE1E9F30CD005DA387 /* Test.swift in Sources */,
 				1E3DA75C1E9B8F1B000F20B4 /* CustomBlurView.swift in Sources */,
 				1E39AB001E9CC1AA00603589 /* HomeViewController.swift in Sources */,
 				1E39AAFE1E9C8E6200603589 /* BaseViewController.swift in Sources */,
